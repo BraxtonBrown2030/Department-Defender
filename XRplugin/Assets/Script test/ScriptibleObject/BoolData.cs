@@ -6,7 +6,7 @@ using UnityEngine.Events;
 [CreateAssetMenu]
 public class BoolData : ScriptableObject
 {
-    public UnityEvent setFalse;
+    public UnityEvent setFalse, setTrue;
     
     public bool onOff;
 
@@ -16,6 +16,12 @@ public class BoolData : ScriptableObject
         onOff = false;
         setFalse.Invoke();
 
+    }
+    
+    public void SetBoolTrue()
+    {
+        onOff = true;
+        setTrue.Invoke();
     }
     
 }
