@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72cf943a7a5ae204d8f3c174e3f1a17d, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
+  destination: {x: 0, y: 0, z: 0}
+  navpoint: {fileID: 0}
+  camera: {fileID: 0}
+  setEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  gameObject: {fileID: 0}

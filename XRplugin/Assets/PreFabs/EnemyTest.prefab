@@ -123,14 +123,14 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 1
   m_AngularSpeed: 120
-  m_StoppingDistance: 3.5
+  m_StoppingDistance: 2
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 1
 --- !u!114 &1799240871928747481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,9 +150,9 @@ MonoBehaviour:
   awakeEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NavSetDestination, Assembly-CSharp
-        m_MethodName: StartMovemnt
+      - m_Target: {fileID: 11400000, guid: da3d871920df20d48ab4547d7563acbc, type: 2}
+        m_TargetAssemblyTypeName: BoolData, Assembly-CSharp
+        m_MethodName: SetBoolFalse
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -173,7 +173,19 @@ MonoBehaviour:
       m_Calls: []
   destroyEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: ef8b35d6966d8fb44aa03fe02393f0c1, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 10
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   applicationQuitEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -191,8 +203,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navmesh: {fileID: 3517596218685776563}
   movePosition: {fileID: 0}
-  move: 0
-  transformobj: {fileID: 0}
   moveSo: {fileID: 11400000, guid: da3d871920df20d48ab4547d7563acbc, type: 2}
 --- !u!1 &7541323088970754613
 GameObject:

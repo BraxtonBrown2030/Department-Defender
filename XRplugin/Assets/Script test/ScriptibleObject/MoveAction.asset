@@ -9,13 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07caf8596f21b914d846763783a1e86b, type: 3}
-  m_Name: EnemyMove
+  m_Script: {fileID: 11500000, guid: 9ff2191cabf09c84c935c8ee1851ebdd, type: 3}
+  m_Name: MoveAction
   m_EditorClassIdentifier: 
-  setFalse:
-    m_PersistentCalls:
-      m_Calls: []
-  setTrue:
-    m_PersistentCalls:
-      m_Calls: []
-  onOff: 1
