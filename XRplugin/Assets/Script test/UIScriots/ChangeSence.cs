@@ -4,14 +4,8 @@ using UnityEngine.Events;
 
 public class ChangeSence : MonoBehaviour
 {
-    public UnityEvent changeEvent;
-    
-    public void Change()
+    public void Change(int hightvalue)
     {
-        
-        SceneManager.LoadScene("BasicScene");
-        changeEvent.Invoke();
+        SceneManager.LoadScene(hightvalue);
     }
-    
-    
 }
