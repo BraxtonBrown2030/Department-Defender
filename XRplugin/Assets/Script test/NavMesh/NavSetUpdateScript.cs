@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,8 @@ public class NavSetUpdateScript : MonoBehaviour
     public NavMeshAgent navmesh;
     [Tooltip("End destination of current objects movement")]
     public Transform movePosition;
+
+    public FloatData moveSpeed;
 
     public BoolData moveSo;
 
@@ -36,5 +39,9 @@ public class NavSetUpdateScript : MonoBehaviour
         }
         
         
+    }
+    public void UpdateSpeed(float speed)
+    {
+        navmesh.speed = speed;
     }
 }
