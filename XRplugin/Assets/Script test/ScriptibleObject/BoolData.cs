@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu]
+[CreateAssetMenu (menuName = "ScriptableObjects/BoolData")]
 public class BoolData : ScriptableObject
 {
     public UnityEvent setFalse, setTrue;

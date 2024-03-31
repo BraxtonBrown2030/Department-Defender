@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu]
+[CreateAssetMenu (menuName = "ScriptableObjects/FloatData")]
 public class FloatData : ScriptableObject
 {
   
