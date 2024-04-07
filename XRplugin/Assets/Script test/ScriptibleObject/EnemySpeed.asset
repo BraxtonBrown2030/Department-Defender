@@ -13,6 +13,3 @@ MonoBehaviour:
   m_Name: EnemySpeed
   m_EditorClassIdentifier: 
   value: 1.5
-  changeEvent:
-    m_PersistentCalls:
-      m_Calls: []

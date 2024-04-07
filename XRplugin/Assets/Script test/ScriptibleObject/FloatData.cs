@@ -1,18 +1,20 @@
 using UnityEngine;
-using UnityEngine.Events;
+using System.Collections;
 
 [CreateAssetMenu (menuName = "ScriptableObjects/FloatData")]
 public class FloatData : ScriptableObject
 {
   
     public float value;
-    public UnityEvent changeEvent;
-    
     
     public void UpdateValue(float number)
     {
         value += number;
-        changeEvent.Invoke();
+    }  
+    public IEnumerator UpdateValue(float number, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        value += number;
     }
     
 }
