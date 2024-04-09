@@ -1442,8 +1442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cc4fa4f65cfef4f93e3691aea92c9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputActionReference: {fileID: 2366268929767495306, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  hand: {fileID: 452463682}
+  inputAction: {fileID: 2366268929767495306, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  moveProvider: {fileID: 1706104024}
 --- !u!1 &452463684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9014170784424948809, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
@@ -6082,6 +6082,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 255835032162250944, guid: bb10ea34f11a4a142a316d4942f61df5, type: 3}
   m_PrefabInstance: {fileID: 1704116443}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1706104024 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9168142743249570444, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+  m_PrefabInstance: {fileID: 452463679}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1e8c997df241c1a67045eeac79b41b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1707153896
 GameObject:
   m_ObjectHideFlags: 0

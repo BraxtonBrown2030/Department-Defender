@@ -4,22 +4,30 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class VrButtonPush : MonoBehaviour
 {
     
-    public InputActionReference inputActionReference;
-    private XRController controller;
-    public GameObject hand;
+    public InputActionReference inputAction; // This is the input action reference
+    public ActionBasedContinuousMoveProvider moveProvider; // uses preinstalled action map to chamge default movement speed
     
     void Start()
     {
-        controller = hand.GetComponent<XRController>();
-
+        moveProvider.moveSpeed = 1; // This is the speed of the movement in in movesprovider
     }
     
     void Update()
     {
 
-        if (inputActionReference.action.triggered)
+        if (inputAction.action.ReadValue<float>() > 0.1f)
         {
-            Debug.Log("Button Pushed");
+           // moveProvider.moveSpeed = 4; // This is the sprint speed of the movement in in movesprovider
+
+           Debug.Log("Button is pressed");
+
+        }
+        else
+        {
+           // moveProvider.moveSpeed = 1; // This is the  walk speed of the movement in in movesprovider
+           
+           Debug.Log("Button is not pressed");
+           
         }
         
     }

@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpanwBehavoir : MonoBehaviour
+[CreateAssetMenu (menuName = "ScriptableObjects/SpawnBehavoir")]
+public class SpanwBehavoir : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   public Vector3DataList vector3DataListObj;
+   public GameObject prefab;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   public void Spawn()
+   {
+      
+      
+   }
+   
 }
