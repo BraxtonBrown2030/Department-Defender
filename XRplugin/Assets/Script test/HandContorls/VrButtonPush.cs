@@ -10,6 +10,7 @@ public class VrButtonPush : MonoBehaviour
     void Start()
     {
         moveProvider.moveSpeed = 1; // This is the speed of the movement in in movesprovider
+        
     }
     
     void Update()
