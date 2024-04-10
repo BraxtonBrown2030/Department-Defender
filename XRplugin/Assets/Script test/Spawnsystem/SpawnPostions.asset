@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vector3List:
   - {fileID: 11400000, guid: 8a86b05a48b36514199c0abb581e1356, type: 2}
+  - {fileID: 11400000, guid: 8f546cf3672964741bb088c63998e731, type: 2}
+  - {fileID: 11400000, guid: 499dbc3c578175846b4ddd54a26d82f8, type: 2}
+  - {fileID: 11400000, guid: 7ad5a719cd495774c8f8eb4da99b7a2d, type: 2}
