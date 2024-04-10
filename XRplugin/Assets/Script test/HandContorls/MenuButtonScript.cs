@@ -4,17 +4,25 @@ using UnityEngine.InputSystem;
 
 public class MenuButtonScript : MonoBehaviour
 {
+    
     public UnityEvent menuButtonEvent;
     public InputActionReference actionReference;
 
-
-    public void Update()
+    private void OnEnable()
     {
-        
-        if(actionReference.action.triggered)
-        {
-            menuButtonEvent.Invoke();
-        }
-        
+        // Subscribe to the action's performed event
+        actionReference.action.performed += OnActionPerformed;
+    }
+
+    private void OnDisable()
+    {
+        // Unsubscribe from the action's performed event
+        actionReference.action.performed -= OnActionPerformed;
+    }
+
+    private void OnActionPerformed(InputAction.CallbackContext context)
+    {
+        // The action has been performed, invoke the event
+        menuButtonEvent.Invoke();
     }
 }
