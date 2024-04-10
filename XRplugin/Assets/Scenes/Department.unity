@@ -185,6 +185,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2993235961583601249, guid: 5db72116790f9704bbc65c1715128b29, type: 3}
   m_PrefabInstance: {fileID: 65920921}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &118851274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9014170785475729474, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+  m_PrefabInstance: {fileID: 452463679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &124001080 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9014170783809206332, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
@@ -988,7 +993,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8074195219289459696, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
   m_PrefabInstance: {fileID: 452463679}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 118851274}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4a50d88b55b45648927679791f472de, type: 3}
@@ -1477,6 +1482,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9014170783809206332, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 124001082}
+    - targetCorrespondingSourceObject: {fileID: 9014170785475729474, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1700675158}
+    - targetCorrespondingSourceObject: {fileID: 9014170785475729474, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1700675157}
     - targetCorrespondingSourceObject: {fileID: 9014170783705847997, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 452463683}
@@ -1510,6 +1521,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputAction: {fileID: 2366268929767495306, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   moveProvider: {fileID: 1706104024}
+  maxspeed: 4
+  minspeed: 2
 --- !u!1 &452463684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9014170784424948809, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
@@ -6446,6 +6459,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9014170785475729501, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
   m_PrefabInstance: {fileID: 452463679}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1700675157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118851274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed85990f0a49934bb049876bb68c57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1700675158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118851274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a3dafddcd7b9a4a8b4568f380d2504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuButtonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1700675157}
+        m_TargetAssemblyTypeName: TestBeahovoir, Assembly-CSharp
+        m_MethodName: TestFunstion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  actionReference: {fileID: 6891335771879009818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &1704116443
 PrefabInstance:
   m_ObjectHideFlags: 0
