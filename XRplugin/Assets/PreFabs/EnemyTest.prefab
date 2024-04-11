@@ -185,6 +185,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: c2d90bb4269136e438b94bb44cfdf963, type: 2}
+        m_TargetAssemblyTypeName: SpanwBehavoir, Assembly-CSharp
+        m_MethodName: CreateIncstanceFromListRandomly
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 072c0df5344a7bd42b26ab445f848b59, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3DataList, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 10
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   applicationQuitEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -201,6 +213,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navmesh: {fileID: 3517596218685776563}
-  movePosition: {fileID: 0}
-  moveSpeed: {fileID: 11400000, guid: 5ed647a6df79c424e9394ac899807a74, type: 2}
+  movePosition: {fileID: 11400000, guid: d107d92775085334bb6fcae6be30269d, type: 2}
+  moveSpeed: {fileID: 11400000, guid: 017e7ed303ff19746b3a0cf755f307fe, type: 2}
   moveSo: {fileID: 11400000, guid: da3d871920df20d48ab4547d7563acbc, type: 2}

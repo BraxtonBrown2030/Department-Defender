@@ -9,7 +9,7 @@ public class NavSetUpdateScript : MonoBehaviour
     [Tooltip("Current objects NavMeshAgent")]
     public NavMeshAgent navmesh;
     [Tooltip("End destination of current objects movement")]
-    public Transform movePosition;
+    public Vector3Data movePosition;
 
     public FloatData moveSpeed;
 
@@ -27,7 +27,7 @@ public class NavSetUpdateScript : MonoBehaviour
         if (moveSo.onOff == true)
         {
             navmesh.speed = 1.5f;
-            navmesh.destination = movePosition.position;
+            navmesh.destination = movePosition.value;
             
         }
 
