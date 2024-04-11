@@ -7,7 +7,7 @@ public class SpanwBehavoir : ScriptableObject
 {
    public Vector3DataList vector3DataListObj;
    public GameObject prefab;
-   public int num;
+   public int num = 1;
  
       public void CreateIncstanceFromListRandomly(Vector3DataList obj)
       {

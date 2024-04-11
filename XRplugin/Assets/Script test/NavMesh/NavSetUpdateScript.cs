@@ -13,6 +13,7 @@ public class NavSetUpdateScript : MonoBehaviour
 
     public FloatData moveSpeed;
 
+    public NavMeshAgent mesh;
     public BoolData moveSo;
 
     void Awake()
@@ -43,5 +44,13 @@ public class NavSetUpdateScript : MonoBehaviour
     public void UpdateSpeed(float speed)
     {
         navmesh.speed = speed;
+    }
+
+    public void UpdateNavmesh()
+    {
+        
+       mesh = this.gameObject.GetComponent<NavMeshAgent>();
+       navmesh = this.gameObject.GetComponent<NavMeshAgent>();
+        
     }
 }

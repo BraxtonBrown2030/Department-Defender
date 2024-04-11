@@ -5618,8 +5618,11 @@ MonoBehaviour:
       m_Calls: []
   awakeEvent:
     m_PersistentCalls:
+      m_Calls: []
+  startEvent:
+    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3207933168303622735, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
+      - m_Target: {fileID: 11400000, guid: c2d90bb4269136e438b94bb44cfdf963, type: 2}
         m_TargetAssemblyTypeName: SpanwBehavoir, Assembly-CSharp
         m_MethodName: CreateIncstanceFromListRandomly
         m_Mode: 2
@@ -5631,9 +5634,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  startEvent:
-    m_PersistentCalls:
-      m_Calls: []
   runEvent:
     m_PersistentCalls:
       m_Calls: []
