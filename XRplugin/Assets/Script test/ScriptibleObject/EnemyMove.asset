@@ -18,4 +18,4 @@ MonoBehaviour:
   setTrue:
     m_PersistentCalls:
       m_Calls: []
-  onOff: 0
+  onOff: 1
