@@ -7,19 +7,23 @@ public class SpanwBehavoir : ScriptableObject
 {
    public Vector3DataList vector3DataListObj;
    public GameObject prefab;
-   public int num = 1;
+   public int num ;
+   public int spawnAmount;
  
       public void CreateIncstanceFromListRandomly(Vector3DataList obj)
       {
-         num = Random.Range(0, obj.vector3List.Count - 1);
-         Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
-      
+         for (int i = 0; i < spawnAmount; i++)
+         {
+            num = Random.Range(0, obj.vector3List.Count - 1);
+            Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
+
+         }
       }
 
       public void IncreaseSpawnAmount(int value)
       {
          
-         num = value;
+         spawnAmount = value;
          
       }
  
