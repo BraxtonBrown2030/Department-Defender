@@ -30,6 +30,7 @@ public class NavSetUpdateScript : MonoBehaviour
             navmesh.speed = 1.5f;
             navmesh.destination = movePosition.value;
             
+            
         }
 
         if (moveSo.onOff == false)
