@@ -15,4 +15,4 @@ MonoBehaviour:
   vector3DataListObj: {fileID: 11400000, guid: 072c0df5344a7bd42b26ab445f848b59, type: 2}
   prefab: {fileID: 3207933168303622735, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
   num: 1
-  spawnAmount: 1
+  spawnAmount: 2
