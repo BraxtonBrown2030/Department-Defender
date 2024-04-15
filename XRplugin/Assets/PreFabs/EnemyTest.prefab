@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1889777739908619965}
   - component: {fileID: 2427514178260565873}
   - component: {fileID: 7852388853328261451}
+  - component: {fileID: 6013705540272455433}
   m_Layer: 0
   m_Name: EnemyTest
   m_TagString: Untagged
@@ -287,6 +288,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: c2d90bb4269136e438b94bb44cfdf963, type: 2}
+        m_TargetAssemblyTypeName: SpanwBehavoir, Assembly-CSharp
+        m_MethodName: CreateIncstanceFromListRandomly
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 072c0df5344a7bd42b26ab445f848b59, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3DataList, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6013705540272455433}
+        m_TargetAssemblyTypeName: DeSpawnCollsihion, Assembly-CSharp
+        m_MethodName: OnDestroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   tag: Bat
 --- !u!114 &7852388853328261451
 MonoBehaviour:
@@ -301,6 +326,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   launchSpeed: -10
+--- !u!114 &6013705540272455433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207933168303622735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709ac19c28717ef45a0a3425663725af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3273105337404562546
 PrefabInstance:
   m_ObjectHideFlags: 0

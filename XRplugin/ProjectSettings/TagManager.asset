@@ -9,6 +9,7 @@ TagManager:
   - RightHand
   - Hands
   - Bat
+  - WFQ
   layers:
   - Default
   - TransparentFX

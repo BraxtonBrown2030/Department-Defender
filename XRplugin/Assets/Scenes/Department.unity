@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 306491082}
   m_Layer: 0
   m_Name: Table (17)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1380,7 +1380,7 @@ GameObject:
   - component: {fileID: 437145467}
   m_Layer: 0
   m_Name: Table (10)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2023,7 +2023,7 @@ GameObject:
   - component: {fileID: 498989003}
   m_Layer: 0
   m_Name: Table (1)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2251,7 +2251,7 @@ GameObject:
   - component: {fileID: 657614104}
   m_Layer: 0
   m_Name: Table (14)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2356,7 +2356,7 @@ GameObject:
   - component: {fileID: 662237713}
   m_Layer: 0
   m_Name: Table (19)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2461,7 +2461,7 @@ GameObject:
   - component: {fileID: 666373813}
   m_Layer: 0
   m_Name: Table (15)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3206,7 +3206,7 @@ GameObject:
   - component: {fileID: 837306363}
   m_Layer: 0
   m_Name: Roof
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3608,7 +3608,7 @@ GameObject:
   - component: {fileID: 926681511}
   m_Layer: 0
   m_Name: Table (9)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4151,7 +4151,7 @@ GameObject:
   - component: {fileID: 1075318287}
   m_Layer: 0
   m_Name: Table (3)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4577,7 +4577,7 @@ GameObject:
   - component: {fileID: 1140215255}
   m_Layer: 0
   m_Name: Table (7)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5162,7 +5162,7 @@ GameObject:
   - component: {fileID: 1249617923}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6029,7 +6029,7 @@ GameObject:
   - component: {fileID: 1498970373}
   m_Layer: 0
   m_Name: Table (8)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6134,7 +6134,7 @@ GameObject:
   - component: {fileID: 1506078681}
   m_Layer: 0
   m_Name: Table (12)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6239,7 +6239,7 @@ GameObject:
   - component: {fileID: 1509728181}
   m_Layer: 0
   m_Name: Table (11)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6580,7 +6580,7 @@ GameObject:
   - component: {fileID: 1604450488}
   m_Layer: 0
   m_Name: Table (13)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7188,7 +7188,7 @@ GameObject:
   - component: {fileID: 1707153897}
   m_Layer: 0
   m_Name: Table (5)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7434,7 +7434,7 @@ GameObject:
   - component: {fileID: 1801926929}
   m_Layer: 0
   m_Name: Table (6)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7539,7 +7539,7 @@ GameObject:
   - component: {fileID: 1804542477}
   m_Layer: 0
   m_Name: Table (2)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8095,7 +8095,7 @@ GameObject:
   - component: {fileID: 1860019713}
   m_Layer: 0
   m_Name: Table (4)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8502,7 +8502,7 @@ GameObject:
   - component: {fileID: 1893645921}
   m_Layer: 0
   m_Name: Table (18)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8607,7 +8607,7 @@ GameObject:
   - component: {fileID: 1961339255}
   m_Layer: 0
   m_Name: Table (16)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8777,10 +8777,6 @@ PrefabInstance:
       value: pCube17 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7209758319846251957, guid: f9de19c70b43d0b4dbf294fff9d44278, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1570.2797
-      objectReference: {fileID: 0}
-    - target: {fileID: 7209758319846251957, guid: f9de19c70b43d0b4dbf294fff9d44278, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.843501
       objectReference: {fileID: 0}
@@ -8844,7 +8840,7 @@ GameObject:
   - component: {fileID: 2009909279}
   m_Layer: 0
   m_Name: Table (20)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9031,10 +9027,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 579203816}
     m_Modifications:
     - target: {fileID: 255835032162250944, guid: bb10ea34f11a4a142a316d4942f61df5, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 34.562668
-      objectReference: {fileID: 0}
-    - target: {fileID: 255835032162250944, guid: bb10ea34f11a4a142a316d4942f61df5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.4
       objectReference: {fileID: 0}
@@ -9196,78 +9188,6 @@ PrefabInstance:
     - target: {fileID: 553243248482050661, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: c2d90bb4269136e438b94bb44cfdf963, type: 2}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: CreateIncstanceFromListRandomly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: SpanwBehavoir, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 11400000, guid: 072c0df5344a7bd42b26ab445f848b59, type: 2}
-    - target: {fileID: 1799240871928747481, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: destroyEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Vector3DataList, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: c2d90bb4269136e438b94bb44cfdf963, type: 2}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
-      value: CreateIncstanceFromListRandomly
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
-      value: SpanwBehavoir, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 11400000, guid: 072c0df5344a7bd42b26ab445f848b59, type: 2}
-    - target: {fileID: 2427514178260565873, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Vector3DataList, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3207933168303622735, guid: bdc59b3d5f07a094589dee234a0ab767, type: 3}
       propertyPath: m_Name

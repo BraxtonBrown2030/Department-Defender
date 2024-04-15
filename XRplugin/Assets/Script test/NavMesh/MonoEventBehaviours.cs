@@ -15,7 +15,6 @@ public class MonoEventBehaviours : MonoBehaviour
     private IEnumerator OnCall()
     {
         yield return new WaitForSeconds(holdTime);
-        Debug.Log("spawn");
         onCallEvent.Invoke();
     }
     

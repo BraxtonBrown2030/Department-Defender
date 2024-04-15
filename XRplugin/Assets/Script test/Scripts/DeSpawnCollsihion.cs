@@ -1,18 +1,21 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DeSpawnCollsihion : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public IEnumerator TimedDestroy()
     {
+
+        yield return new WaitForSeconds(5);
+        Destroy(gameObject);
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnDestroy()
     {
-        
+        StartCoroutine(TimedDestroy());
     }
 }

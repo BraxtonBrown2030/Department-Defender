@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7292578221892065214}
   m_Layer: 0
   m_Name: pCube17 (1)
-  m_TagString: Untagged
+  m_TagString: WFQ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 4.766417, z: -12.684934}
-  m_LocalScale: {x: 1609.6938, y: 141.73228, z: 42.26006}
+  m_LocalScale: {x: 1570.2797, y: 141.73228, z: 42.26006}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
