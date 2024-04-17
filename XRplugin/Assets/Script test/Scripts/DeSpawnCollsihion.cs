@@ -9,7 +9,7 @@ public class DeSpawnCollsihion : MonoBehaviour
     public IEnumerator TimedDestroy()
     {
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1.5f);
         Destroy(gameObject);
         
     }

@@ -17,4 +17,9 @@ public class FloatData : ScriptableObject
         value += number;
     }
     
+    public void SetValue(float number)
+    {
+        value = number;
+    }
+    
 }
