@@ -20,4 +20,18 @@ public class MonoDestroryBehavior : MonoBehaviour
         StartCoroutine(DestroyAfterDelayCoroutine(objectToDestroy));
     }
     
+    public void DestoryTableAfterDelay(GameObject objectToDestroy)
+    {
+        StartCoroutine(DestroyTabel(gameObject));
+    }
+
+    public IEnumerator DestroyTabel(GameObject objectToDestroy)
+    {
+        yield return new WaitForSeconds(15f);
+        if (objectToDestroy != null)
+        {
+            Destroy(objectToDestroy);
+        }
+    }
+
 }

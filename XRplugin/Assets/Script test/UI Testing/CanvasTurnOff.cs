@@ -16,7 +16,7 @@ public class CanvasTurnOff : MonoBehaviour
 
     public IEnumerator DestroyAfterDelayCoroutine()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(15f);
             canvas.enabled = false;
     }
     
