@@ -9,6 +9,7 @@ public class FloatData : ScriptableObject
     
     public void UpdateValue(float number)
     {
+        
         value += number;
     }  
     public IEnumerator UpdateValue(float number, float delay)
@@ -20,6 +21,16 @@ public class FloatData : ScriptableObject
     public void SetValue(float number)
     {
         value = number;
+    }
+
+    public void  Healupdate(float number)
+    {
+
+        if (value >= 100)
+        {
+            value -= 100;
+            
+        }
     }
     
 }

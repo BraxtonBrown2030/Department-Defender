@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: PlayerHealth
   m_EditorClassIdentifier: 
   value: 10
+  floatValue: {fileID: 11400000, guid: ef8b35d6966d8fb44aa03fe02393f0c1, type: 2}
